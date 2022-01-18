@@ -9,7 +9,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Exercise {
+public class StreamExercise {
     /**
      * 1.常用流操作 。实现如下函数：
      *
@@ -95,7 +95,7 @@ public class Exercise {
      */
     public static Optional<String> mostLowercaseString(List<String> strings) {
         return strings.stream()
-                      .max(Comparator.comparing(Exercise::countLowercaseLetters));
+                      .max(Comparator.comparing(StreamExercise::countLowercaseLetters));
     }
 
     /**
@@ -140,7 +140,7 @@ public class Exercise {
                         return acc;
                     }
                 },
-                Exercise::combineLists);
+                StreamExercise::combineLists);
     }
 
     private static <I> List<I> combineLists(List<I> left, List<I> right) {
