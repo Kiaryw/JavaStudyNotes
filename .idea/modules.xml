@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaNewFeature-Lambda/JavaNewFeature-Lambda.iml" filepath="$PROJECT_DIR$/JavaNewFeature-Lambda/JavaNewFeature-Lambda.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/JavaStudyNotes.iml" filepath="$PROJECT_DIR$/.idea/JavaStudyNotes.iml" />
-    </modules>
-  </component>
-</project>
